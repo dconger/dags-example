@@ -5,7 +5,7 @@ http://airflow.readthedocs.org/en/latest/tutorial.html
 import datetime as dt
 
 from airflow import DAG
-from airflow.operators import (PostgresTableRowsCountOperator)
+from airflow.operators.dea_plugin import (PostgresTableRowsCountOperator)
 
 default_args = {
     "owner": "podium",
