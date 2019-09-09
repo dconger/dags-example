@@ -23,7 +23,7 @@ default_args = {
 }
 
 dag = DAG(
-    "tutorial",
+    "tutorial-one",
     default_args=default_args,
     schedule_interval=dt.timedelta(days=1)
 )
