@@ -29,7 +29,7 @@ dag = DAG(
 )
 
 query_table_task = PostgresTableRowsCountOperator(
-    pool_conn_id='dea',
+    pool_conn_id='default_pool',
     db_name='dea',
     table_name='users',
     task_id='query_the_table',
